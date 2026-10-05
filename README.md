@@ -13,57 +13,12 @@ Détection d'objets en temps réel via la caméra du PC, avec affichage des boî
 
 ---
 
-## 🗂️ Structure du Projet
 
-```
-object_detection_project/
-├── app.py                 # Script principal
-├── requirements.txt       # Dépendances
-├── models/                # Weights YOLO (auto-téléchargés)
-├── utils/
-│   └── detector.py        # Classe ObjectDetector
-└── README.md
-```
-
----
-
-## ⚙️ Installation
-
-### 1. Cloner le repo
-
-```bash
-git clone https://github.com/ton-username/object-detection-yolo.git
-cd object-detection-yolo
-```
-
-### 2. Créer un environnement virtuel (recommandé)
-
-```bash
-python -m venv venv
-source venv/bin/activate        # Linux / Mac
-venv\Scripts\activate           # Windows
-```
-
-### 3. Installer les dépendances
-
-```bash
-pip install -r requirements.txt
-```
-
-> ⚠️ Le modèle `yolov8n.pt` (~6MB) sera téléchargé automatiquement au premier lancement.
-
----
-
-## 🚀 Lancement
-
-```bash
-python app.py
-```
 
 | Touche | Action |
 |--------|--------|
 | `q` | Quitter |
-| `ESC` | Quitter |
+
 
 ---
 
